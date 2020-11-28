@@ -1,0 +1,102 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="fr">
+
+<head>
+<title>Titre de la page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+div#container {
+width: 859px;
+height: 606px;
+margin: 10px auto;
+text-align: center;
+}
+.top {
+width: 859px;
+height: 14px;
+background:green url("../images/top-base.png");
+}
+.middle {
+width: 859px;
+height: 524px;
+background:red url("../images/middle-base.png");
+background-repeat:repeat-y;
+margin:0 auto;
+}
+.menuzone {
+position: absolute;
+top: 30px;
+left: 365px;
+width: 452px;
+height: 29px;
+z-index: 1;
+}
+ul#menu {
+margin: 0;
+padding: 0;
+background:blue url("../images/menu.png") repeat-x 0 -25px ;
+list-style-type: none ;
+}
+ul#menu li {
+float: left ;
+text-align: center ;
+}
+ul#menu li a {
+width: 87px ;
+line-height: 29px ;
+font-size: 1em ;
+letter-spacing: 2px ;
+color: #d0df99 ;
+display: block ;
+text-decoration: none ;
+border-right: 1px solid #dea ;
+}	
+ul#menu li a:hover {
+background:#aaa url("../images/menu.png") repeat-x 0 0 ;
+}
+.photozone {
+/*float: left;*/
+margin-left: 36px;
+width: 401px;
+height: 380px;
+background:#ffff00 url("../images/photozone.png");
+}
+.wrapper-actualites {
+margin-left: 442px;
+width: 383px;
+height: 523px;
+background-image: url("../images/wrapper-actualites.png");
+}
+.bottom{
+width: 859px;
+height: 68px;
+background-image: url("../images/bottom-base.png");
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+	<div class="top"></div>
+	<div class="middle">
+		<!-- <div class="menuzone"> -->
+		<div class="photozone">
+
+			<ul id="menu">
+				<li><a href="actualites.html">Actualités</a></li>
+				<li><a href="culture.html">Culture</a></li>
+				<li><a href="references">Références</a></li>
+				<li><a href="structure.html">Structure</a></li>
+			</ul>
+		</div>
+		<!--</div> -->
+		<div class="wrapper-actualites"></div>
+	</div>
+	<div class="bottom"></div>
+</div>
+
+</body>
+
+</html>
