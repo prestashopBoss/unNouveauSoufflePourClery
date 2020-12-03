@@ -41,3 +41,20 @@
 .flaticon-hair-spray:before { content: "\f103"; }
 .flaticon-hair:before { content: "\f104"; }
 .flaticon-barber-shop:before { content: "\f105"; }
+
+.icon {
+  display: inline-block;
+  width: 10em;
+  height: 5em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
