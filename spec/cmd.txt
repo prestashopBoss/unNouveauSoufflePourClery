@@ -1,0 +1,4 @@
+Apapche :
+allow read and write www
+sudo chown -R $USER:$USER /var/www/
+sudo chmod -R 755 /var/www/
