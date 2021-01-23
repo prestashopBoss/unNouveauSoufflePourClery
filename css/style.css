@@ -13,6 +13,17 @@ html {
    width: 100%;
    height: auto;
  }
+
+ @font-face {
+   font-family: LaBeauties;
+   src: url('../fonts/laBeauties/LaBeauties.ttf');
+ }
+
+.font_clery {
+  font-family: LaBeauties;
+  font-size: 5em;
+}
+
 .font-size-10 {
   font-size: 10px; }
 
