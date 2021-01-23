@@ -10,3 +10,7 @@ copier fichier
 copy files
 cp chemin/*.* --> fichier avec extension
 cp chemin/* --> sans extension
+
+
+URL pour https --> SSL
+https://certbot.eff.org/lets-encrypt/centosrhel8-apache

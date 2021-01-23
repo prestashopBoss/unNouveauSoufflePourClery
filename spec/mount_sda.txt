@@ -1,0 +1,5 @@
+Commande df, pour voir les HDD et espace disk utiliser
+
+il faut monter le disk et le monter en auto
+[centos@ns3370927 /]$ sudo mkdir /mnt/sda2
+[centos@ns3370927 /]$ sudo mount -t auto /dev/sda2 /mnt/sda2
