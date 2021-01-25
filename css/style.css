@@ -1,7 +1,10 @@
 /* Base */
 html {
-  overflow-x: hidden; }
-
+  overflow-x: hidden; 
+}
+.pointer {
+  cursor: pointer;
+}
 .police_man {
   color : rgb(112, 48, 160);
 }
