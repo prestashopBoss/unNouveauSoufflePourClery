@@ -49,7 +49,7 @@ const calculer = (valeur) => {
         switch(valeur){
             case '8' :
                 ecran.textContent = "";
-                breack;
+                break;
             case '13' :
                 const calcul = eval(ecran.textContent);
                 ecran.textContent = calcul;
@@ -64,7 +64,7 @@ const calculer = (valeur) => {
 
 window.addEventListener('error', (e) => {
     alert('Une erreur est survenue, vérifié la syntaxe : ' + e.message);
-    breack;
+
 })
 /*comprendre includes
 const animaux = ['chat', 'chien', 'cheval'];
