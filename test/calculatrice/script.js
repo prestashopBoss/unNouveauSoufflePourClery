@@ -64,6 +64,7 @@ const calculer = (valeur) => {
 
 window.addEventListener('error', (e) => {
     alert('Une erreur est survenue, vérifié la syntaxe : ' + e.message);
+    breack;
 })
 /*comprendre includes
 const animaux = ['chat', 'chien', 'cheval'];
