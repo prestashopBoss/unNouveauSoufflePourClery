@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- https://www.youtube.com/watch?v=GpJ-kTR-crM&ab_channel=Wikodemedias 
+    extension Live server (rafraichi la page en live. Clic droit sur le fichier)
+    Pour afficher une div class=, avec VisualStudio taper simplement .calculatritre
+    L'implémentation fera le reste.
+    Pour un ID, #calculatrice
+    Pour répéter une classe. Exepmle les buttons ci-dessous.
+    Taper button.button*19
+    Et nous avons 19 button avec la clacce button
+    Suite en CSS
+
+    Keycode pour connaitre la valeur de l'évenement
+    -- https://keycode.info/
+    la classe correspondante pour l'evennement keycode est data-key=""
+    -->
+    <div class="calculatrice">  <!-- La div qui encadre toute la calculatrice-->
+        <div class="ecran"></div> <!-- Div pour l'écran -->
+            <div class="touches"> <!-- Div pour les ??? touches -->
+                <button class="button" data-key="8">C</button>
+                <button class="button" data-key="53">(</button>
+                <button class="button" data-key="219">)</button>
+                <button class="button" data-key="111">/</button>
+                <button class="button" data-key="103">7</button>
+                <button class="button" data-key="104">8</button>
+                <button class="button" data-key="105">9</button>
+                <button class="button" data-key="106">*</button>
+                <button class="button" data-key="100">4</button>
+                <button class="button" data-key="101">5</button>
+                <button class="button" data-key="102">6</button>
+                <button class="button" data-key="109">-</button>
+                <button class="button" data-key="97">1</button>
+                <button class="button" data-key="98">2</button>
+                <button class="button" data-key="99">3</button>
+                <button class="button" data-key="107">+</button>
+                <button class="button" data-key="96">0</button>
+                <button class="button" data-key="110">.</button>
+                <button class="button" data-key="13">=</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
