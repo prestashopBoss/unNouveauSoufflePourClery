@@ -21,7 +21,48 @@ html {
    font-family: LaBeauties;
    src: url('../fonts/laBeauties/LaBeauties.ttf');
  }
-
+ .color-theme-button-orange{
+   background-color: rgb(248,196,6);
+  color : rgb(248,196,6);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-left-width: 0px;
+  border-left-style: solid;
+  }
+  .color-theme-button-purple{
+    background-color: rgb(147,65,202);
+      color : rgb(147,65,202);
+      padding-top: 1em;
+      padding-bottom: 1em;
+      border-bottom-width: 0px;
+      border-bottom-style: solid;
+      border-top-width: 0px;
+      border-top-style: solid;
+      border-right-width: 0px;
+      border-right-style: solid;
+      border-left-width: 0px;
+      border-left-style: solid;
+  }
+  .color-theme-button-green{
+    background-color: rgb(148,212,84);  
+    color : rgb(148,212,84);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+  }
 .font_clery {
   font-family: LaBeauties;
   font-size: 5em;

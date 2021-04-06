@@ -1,7 +1,7 @@
 Port ssh 8000
 ssh centos@37.187.6.104 -p 8000
 
-Apapche :
+Apache :
 allow read and write www
 sudo chown -R $USER:$USER /var/www/
 sudo chmod -R 755 /var/www/
