@@ -22,7 +22,7 @@ html {
    src: url('../fonts/laBeauties/LaBeauties.ttf');
  }
  .color-theme-button-orange{
-   background-color: rgb(248, 6, 147);
+   background-color: rgb(248,196,6);
   color : rgb(248,196,6);
   padding-left: 1px;
   padding-top: 1em;
