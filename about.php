@@ -332,7 +332,7 @@ include("./PHP/site_php/header.php");
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-7 text-center mb-5">
-            <h2 class="text-white primary-color-icon text-center font_clery">Un nouveau souffle pour Cléry !</h2>
+            <h2 class="text-white primary-color-icon text-center font_clery">Un nouveau souffle pour Cléry-Saint André !</h2>
             <><a href="#" class="btn btn-primary">Contactez nous</a></>
           </div>
         </div>
