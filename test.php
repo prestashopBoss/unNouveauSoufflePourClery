@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,4 +49,4 @@
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
 <script src="https://kit.fontawesome.com/b7da64fc38.js" crossorigin="anonymous"></script>
-</html>
+</php>

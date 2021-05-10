@@ -18,7 +18,7 @@ include("./PHP/site_php/header.php");
           <div class="col-12">
             <div class="nonloop-block-13 owl-carousel d-flex">
               <div class="item-1 h">
-                <a href="https://actu.fr/normandie/rouen_76540/des-centaines-de-personnes-manifestent-a-rouen-contre-la-proposition-de-loi-securite-globale_37773583.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                <a href="https://actu.fr/normandie/rouen_76540/des-centaines-de-personnes-manifestent-a-rouen-contre-la-proposition-de-loi-securite-globale_37773583.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
                 <div class="item-1-contents">
                   <h3>Sécurité globale</h3>
                   <ul>
@@ -27,7 +27,7 @@ include("./PHP/site_php/header.php");
                 </div>
               </div>
               <div class="item-1 h">
-                 <a href="https://www.lemonde.fr/societe/article/2020/11/28/agression-de-michel-zecler-la-garde-a-vue-des-quatre-policiers-prolongee_6061501_3224.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                 <a href="https://www.lemonde.fr/societe/article/2020/11/28/agression-de-michel-zecler-la-garde-a-vue-des-quatre-policiers-prolongee_6061501_3224.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
                 <div class="item-1-contents">
                 <h3>Agression Michel Zecler</h3></a>
                   <ul>
@@ -450,7 +450,7 @@ include("./PHP/site_php/header.php");
               46 ans. Marié, 3 enfants</br>
               <hr>
               Cadre dans la fonction publique (Directeur du théatre Gérard Philippe) et une experience de 30 ans dans la vie associative.</br>
-              <a href="contacts/gregoryB.html"><span class ="police_man">En savoir plus...</span></a>
+              <a href="contacts/gregoryB.php"><span class ="police_man">En savoir plus...</span></a>
               </p>
               </blockquote>
             </div>
@@ -468,7 +468,7 @@ include("./PHP/site_php/header.php");
                   49 ans. Divorcée, 1 enfant
                   <hr>
                   Diplomée de l'université d'Angers. Je travail actuellement dans un grand groupe banquaire. En tant que conseiller privé.</br>
-                  <a href="contacts/corinneB.html"><span class ="police_woman">En savoir plus...</span></a>
+                  <a href="contacts/corinneB.php"><span class ="police_woman">En savoir plus...</span></a>
                 </p>
               </blockquote>
               <!--  -->
@@ -486,7 +486,7 @@ include("./PHP/site_php/header.php");
                   44 ans. Marié, 2 enfants
                   <hr>
                   Ingénieur en Biologie au CNRS Orléans La Source. Arrivé à Cléry Saint André en 2011. Je suis impliqué dans la vie associative.</br>
-                  <a href="contacts/alexandreD.html"><span class ="police_man">En savoir plus...</span></a>
+                  <a href="contacts/alexandreD.php"><span class ="police_man">En savoir plus...</span></a>
                 </p>
               </blockquote>
               <!--  -->

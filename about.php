@@ -22,7 +22,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2 class="">Grégory Bubenheimer</h2>
-                <p>46 ans. Marié, 3 enfants <br /> Cadre de la fonction publique <br /><a href="contacts/gregoryB.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>46 ans. Marié, 3 enfants <br /> Cadre de la fonction publique <br /><a href="contacts/gregoryB.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Corinne Brodie</h2>
-                <p>49 ans. Divorcée, 1 enfant<br /> Diplômée de l'université d'Angers<br /><a href="contacts/corinneB.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>49 ans. Divorcée, 1 enfant<br /> Diplômée de l'université d'Angers<br /><a href="contacts/corinneB.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Alexandre Diet</h2>
-                <p>44 ans. Marié, 2 enfants<br /> Ingénieure en Biologie au CNRS d'Orléans<br /><a href="contacts/alexandreD.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>44 ans. Marié, 2 enfants<br /> Ingénieure en Biologie au CNRS d'Orléans<br /><a href="contacts/alexandreD.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ include("./PHP/site_php/header.php");
                  <div class="post-entry-1-contents">
                   <!--<span class="meta">Founder</span>-->
                   <h2>Dorothée Androuin</h2>
-                  <p>39 ans. 2 enfants<br /> Educatrice de jeunes enfants<br /><a href="contacts/dorotheeA.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                  <p>39 ans. 2 enfants<br /> Educatrice de jeunes enfants<br /><a href="contacts/dorotheeA.php"><span class ="police_woman">En savoir plus...</span></a></p>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Michel Boissay</h2>
-                <p>69 ans. Marié, 3 enfants<br /> Agriculteur à la retraite<br /><a href="contacts/michelB.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>69 ans. Marié, 3 enfants<br /> Agriculteur à la retraite<br /><a href="contacts/michelB.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Elodie Gidoin-Baral</h2>
-                <p>34 ans. Mariée<br /> Docteur en histoire médiévale<br /><a href="contacts/elodieG-B.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>34 ans. Mariée<br /> Docteur en histoire médiévale<br /><a href="contacts/elodieG-B.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Bertand Guilment</h2>
-                <p>34 ans. Marié, 4 enfants<br /> Agent de maitrise<br /><a href="contacts/bertandG.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>34 ans. Marié, 4 enfants<br /> Agent de maitrise<br /><a href="contacts/bertandG.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Nathalie Portheault</h2>
-                <p>35 ans. Divorcée, 2 enfants<br />Gérante de boulangerie<br /><a href="contacts/nathalieP.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>35 ans. Divorcée, 2 enfants<br />Gérante de boulangerie<br /><a href="contacts/nathalieP.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Nicolas Roncin</h2>
-                <p>39 ans. Marié, 4 enfants<br /> Coordinateur des flux logistiques, Enedis<br /><a href="contacts/nicolasR.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>39 ans. Marié, 4 enfants<br /> Coordinateur des flux logistiques, Enedis<br /><a href="contacts/nicolasR.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Sabine Tetu</h2>
-                <p>55 ans. Mariée, 3 enfants<br />Secrétaire médicale<br /><a href="contacts/sabineT.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>55 ans. Mariée, 3 enfants<br />Secrétaire médicale<br /><a href="contacts/sabineT.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Henri Bertrand</h2>
-                <p>44 ans. 3 enfants<br /> Manager service France Dpt santé<br /><a href="contacts/henriB.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>44 ans. 3 enfants<br /> Manager service France Dpt santé<br /><a href="contacts/henriB.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Elodie Boissay</h2>
-                <p>31 ans. Concubinage, 2 enfants<br /> Assistante chargée d'affaire <br /><a href="contacts/elodieB.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>31 ans. Concubinage, 2 enfants<br /> Assistante chargée d'affaire <br /><a href="contacts/elodieB.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Frederic Martin</h2>
-                <p>33 ans. Célibataire<br />Spécialisé dans la voirie <br /><a href="contacts/fredericM.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>33 ans. Célibataire<br />Spécialisé dans la voirie <br /><a href="contacts/fredericM.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Aline Diet</h2>
-                <p>44 ans. Mariée, 2 enfants<br />Professeur des écoles<br /><a href="contacts/alineD.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>44 ans. Mariée, 2 enfants<br />Professeur des écoles<br /><a href="contacts/alineD.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Elodie Gidoin-Baral</h2>
-                <p>34 ans. Marié<br /> Docteur en histoire médiévale<br /><a href="contacts/elodieG-B.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>34 ans. Marié<br /> Docteur en histoire médiévale<br /><a href="contacts/elodieG-B.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -231,7 +231,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Dominique Salzmamnn</h2>
-                <p>69 ans. Marié, 1 enfant<br />Cadre retraitée de la communication<br /><a href="contacts/dominiqueS.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>69 ans. Marié, 1 enfant<br />Cadre retraitée de la communication<br /><a href="contacts/dominiqueS.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -245,7 +245,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Jean-Marie Gidoin</h2>
-                <p>71 ans. Marié, 4 enfants<br />Cadre retraitée de la culture<br /><a href="contacts/jeanMarieG.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>71 ans. Marié, 4 enfants<br />Cadre retraitée de la culture<br /><a href="contacts/jeanMarieG.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Laurence Merton</h2>
-                <p>47 ans. Mariée, 3 enfants<br />Assistante familiale<br /><a href="contacts/laurenceM.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>47 ans. Mariée, 3 enfants<br />Assistante familiale<br /><a href="contacts/laurenceM.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -273,7 +273,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Erwan Bertrand-Bonvillain</h2>
-                <p>18 ans. <br />Etudiant en Math. Spe.<br /><a href="contacts/erwanB-B.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>18 ans. <br />Etudiant en Math. Spe.<br /><a href="contacts/erwanB-B.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -287,7 +287,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Stéphanie Bachelier</h2>
-                <p>42 ans. Mariée, 2 enfants<br /> Assistante recouvrement <br /><a href="contacts/stephanieB.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>42 ans. Mariée, 2 enfants<br /> Assistante recouvrement <br /><a href="contacts/stephanieB.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Pascal Barale</h2>
-                <p>35 ans. Marié<br />Professeur Mathématiques<br /><a href="contacts/pascalB.html"><span class ="police_man">En savoir plus...</span></a></p>
+                <p>35 ans. Marié<br />Professeur Mathématiques<br /><a href="contacts/pascalB.php"><span class ="police_man">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>
@@ -315,7 +315,7 @@ include("./PHP/site_php/header.php");
               <div class="post-entry-1-contents">
                 <!--<span class="meta">Founder</span>-->
                 <h2>Agnès Roncin</h2>
-                <p>40 ans. Mariée, 4 enfants<br />Chargée d'étude auprès des communeautés<br /><a href="contacts/agnesR.html"><span class ="police_woman">En savoir plus...</span></a></p>
+                <p>40 ans. Mariée, 4 enfants<br />Chargée d'étude auprès des communeautés<br /><a href="contacts/agnesR.php"><span class ="police_woman">En savoir plus...</span></a></p>
               </div>
             </div>
           </div>

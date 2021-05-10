@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
 
   <head>
     <title>Barberz &mdash; Website Template by Colorlib</title>
@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html">Barberz</a>
+                <a href="index.php">Barberz</a>
               </div>
             </div>
 
@@ -59,12 +59,12 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="barber-shop.html" class="nav-link">Barber Shop</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li class="active"><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="index.php" class="nav-link">Home</a></li>
+                  <li><a href="services.php" class="nav-link">Services</a></li>
+                  <li><a href="barber-shop.php" class="nav-link">Barber Shop</a></li>
+                  <li><a href="about.php" class="nav-link">About</a></li>
+                  <li class="active"><a href="blog.php" class="nav-link">Blog</a></li>
+                  <li><a href="contact.php" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -111,7 +111,7 @@
 
 
             <div class="pt-5">
-              <p>Categories:  <a href="#">Design</a>, <a href="#">Events</a>  Tags: <a href="#">#html</a>, <a href="#">#trends</a></p>
+              <p>Categories:  <a href="#">Design</a>, <a href="#">Events</a>  Tags: <a href="#">#php</a>, <a href="#">#trends</a></p>
             </div>
 
 
@@ -243,7 +243,7 @@
                 <li><a href="#">Creatives <span>(12)</span></a></li>
                 <li><a href="#">News <span>(22)</span></a></li>
                 <li><a href="#">Design <span>(37)</span></a></li>
-                <li><a href="#">HTML <span>(42)</span></a></li>
+                <li><a href="#">php <span>(42)</span></a></li>
                 <li><a href="#">Web Development <span>(14)</span></a></li>
               </div>
             </div>
@@ -331,5 +331,5 @@
 
   </body>
 
-</html>
+</php>
 

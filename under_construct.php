@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
 
   <head>
     <title>Clery-info.fr</title>
@@ -46,7 +46,7 @@
   
                 <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                   <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                    <li class="nav-link"><a href="index.html" >Accueil</a></li> <!--class="active" -->
+                    <li class="nav-link"><a href="index.php" >Accueil</a></li> <!--class="active" -->
                     <li><a href="#" class="nav-link">Qui sommes-nous</a></li>
                     <li><a href="#" class="nav-link">Actualités</a></li>
                     <li><a href="#" class="nav-link">Nos idées</a></li>
@@ -98,4 +98,4 @@ Alfred de Musset
 <script src="js/main.js"></script>
 <script src="https://kit.fontawesome.com/b7da64fc38.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</php>

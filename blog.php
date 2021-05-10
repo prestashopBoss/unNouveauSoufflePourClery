@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
 
   <head>
     <title>Barberz &mdash; Website Template by Colorlib</title>
@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html">Barberz</a>
+                <a href="index.php">Barberz</a>
               </div>
             </div>
 
@@ -59,12 +59,12 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="barber-shop.html" class="nav-link">Barber Shop</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li class="active"><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="index.php" class="nav-link">Home</a></li>
+                  <li><a href="services.php" class="nav-link">Services</a></li>
+                  <li><a href="barber-shop.php" class="nav-link">Barber Shop</a></li>
+                  <li><a href="about.php" class="nav-link">About</a></li>
+                  <li class="active"><a href="blog.php" class="nav-link">Blog</a></li>
+                  <li><a href="contact.php" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -95,13 +95,13 @@
           
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_1.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -109,13 +109,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_2.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -124,13 +124,13 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_3.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -139,13 +139,13 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_1.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -153,13 +153,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_2.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -168,13 +168,13 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="single.php">
                 <img src="images/img_3.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.php">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -273,5 +273,5 @@
 
   </body>
 
-</html>
+</php>
 
