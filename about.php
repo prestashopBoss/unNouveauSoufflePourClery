@@ -1,5 +1,5 @@
-<?php include("./PHP/site_php/head.php");
-include("./PHP/site_php/header.php");
+<?php include("head.php");
+include("header.php");
 ?>
 
     
@@ -337,5 +337,5 @@ include("./PHP/site_php/header.php");
       </div>
     </div>
 
-<?php include("./PHP/site_php/footer.php"); ?>
+<?php include("footer.php"); ?>
 
