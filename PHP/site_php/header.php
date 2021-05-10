@@ -18,7 +18,7 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="nav-link"><a href="index.php" >Accueil</a></li> 
 
-                  <li class="nav-link"><a href="../../../unNouveauSoufflePourClery/about.php" >Qui sommes-nous</a></li>
+                  <li class="nav-link"><a href="../../about.php" >Qui sommes-nous</a></li>
                   <li class="nav-link"><a href="#">Actualités</a></li>
                   <li class="nav-link"><a href="../../index.php">Nos idées</a></li>
                   <li class="nav-link"><a href="../../contacts/gregoryB.php">Grégory Bubenheimer</a></li>
