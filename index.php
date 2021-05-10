@@ -445,7 +445,7 @@ include("./header.php");
               46 ans. Marié, 3 enfants</br>
               <hr>
               Cadre dans la fonction publique (Directeur du théatre Gérard Philippe) et une experience de 30 ans dans la vie associative.</br>
-              <a href="contacts/gregoryB.php"><span class ="police_man">Grégory Bubenheimer</span></a>
+              <a href="contacts/gregoryB.php"><span class ="police_man">En savoir plus...</span></a>
               </p>
               </blockquote>
             </div>
