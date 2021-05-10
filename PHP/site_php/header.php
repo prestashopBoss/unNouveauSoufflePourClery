@@ -1,3 +1,4 @@
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="site-wrap " id="home-section">
       <div class="site-mobile-menu site-navbar-target">
@@ -17,10 +18,10 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="nav-link"><a href="index.php" >Accueil</a></li> 
 
-                  <li class="nav-link"><a href="about.php" >Qui sommes-nous</a></li>
+                  <li class="nav-link"><a href="../../../unNouveauSoufflePourClery/about.php" >Qui sommes-nous</a></li>
                   <li class="nav-link"><a href="#">Actualités</a></li>
-                  <li class="nav-link"><a href="index.php#nosidees">Nos idées</a></li>
-                  <li class="nav-link"><a href="contacts/gregoryB.html">Grégory Bubenheimer</a></li>
+                  <li class="nav-link"><a href="../../index.php">Nos idées</a></li>
+                  <li class="nav-link"><a href="../../contacts/gregoryB.php">Grégory Bubenheimer</a></li>
                   <li class="nav-link"><a href="#">Galerie</a></li>
                   <li class="nav-link"><a href="#">Entre nous</a></li>
                 </ul>
