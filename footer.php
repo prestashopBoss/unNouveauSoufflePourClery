@@ -7,7 +7,7 @@
               <div class="col-lg-12 ml-auto">
                 <h2 class="footer-heading mb-12">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="about.html">Qui sommes-nous</a></li>
+                  <li><a href="about.php">Qui sommes-nous</a></li>
                   <li><a href="#">Nos valeurs </a></li>
                   <li><a href="#">Notre équipe</a></li>
                   <li><a href="#">Nos idées</div></li>
