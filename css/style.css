@@ -1384,7 +1384,7 @@ h1, h2, h3, h4, h5,
     color: #356fdc; }
 
 .bg-light {
-  background-color: #f6f5f5 !important; }
+  background-color: #f6f5f500 !important; } /* Couleur d'origine #f6f5f5 */
 
 .post-entry-1 .meta {
   color: #ccc; }

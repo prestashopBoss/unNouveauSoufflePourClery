@@ -12,25 +12,26 @@
 
 
     <header class="site-navbar site-navbar-target"  role="banner">
-            <div class="col-12">
-              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-b"></span></a></span>
+            <div class="col-12 text-right">
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h4 text-b"></span></a></span>
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="nav-link"><a href="index.php" >Accueil</a></li> 
                   <li class="nav-link"><a href="about.php" >Qui sommes-nous</a></li>
                   <li class="nav-link"><a href="./contacts/gregoryB.php">Grégory Bubenheimer</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En savoir plus</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="../../index.php">Nos idées</a>
-          <a class="dropdown-item" href="#">Galerie</a>
-          <a class="dropdown-item" href="#">Entre nous</a>
-          <a class="dropdown-item" href="#">Actualités</a>
-          <a class="dropdown-item" href="#">Contact</a>
-        </div>
-      </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En savoir plus</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="../../index.php">Nos idées</a>
+                      <a class="dropdown-item" href="#">Galerie</a>
+                      <a class="dropdown-item" href="#">Entre nous</a>
+                      <a class="dropdown-item" href="#">Actualités</a>
+                      <a class="dropdown-item" href="#">Contact</a>
+              </div>
+                  </li>
               </ul>
-            </nav>
+              </nav>
+            </div>
     <!--color button-->
       <div class="col-1 d-flex align-items-start">
       <div class="btn-group-vertical">

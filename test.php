@@ -1,52 +1,110 @@
-<!DOCTYPE php>
-<php lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<?php include("head.php");
+    ?>
 
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap " id="home-section">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/7c495e8ab5/testouille/style-svg.css">
-    <link rel="stylesheet" href="css/theme.css">
-
-</head>
-<body>
-    <div class="btn-group-vertical">
-        <button type="button" class="color-theme-button-purple"></button>
-        <button type="button" class="color-theme-button-orange"></button>
-        <button type="button" class="color-theme-button-green"></button>
+    <header class="site-navbar site-navbar-target"  role="banner">
+              <span class="icon-menu" style="background-color:#f6f5f500 !important;"></span></a>
+              <div class="d-flex flex-row-reverse">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#f6f5f500 !important">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+    <!--color button-->
+      <div class="col-1 d-flex align-items-start">
+      <div class="btn-group-vertical">
+        <button type="button" class="color-theme-button-purple" style="padding-left: 1px;"></button>
+        <button type="button" class="color-theme-button-orange" style="padding-left: 1px;"></button>
+        <button type="button" class="color-theme-button-green" style="padding-left: 1px;"></button>
+    </div>
+  </div>
+    <!--color button-->
+    </header>
+    <div class="ftco-blocks-cover-1">
+      <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('img/1280x680_015_basilique_clery_hd_chevet_faoade_nord.jpg')">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-12">
+            <h3 class="text-white font_clery">Un Nouveau Souffle Pour Cléry-Saint André</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery-migrate-3.0.0.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap-datepicker.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/main.js"></script>
-<script src="https://kit.fontawesome.com/b7da64fc38.js" crossorigin="anonymous"></script>
-</php>
+    <div class="site-navbar site-navbar-target"  role="banner">
+    </div>
+
+<!--
+<div class="d-flex flex-row-reverse">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+d-inline-block d-inline-block 
+
+-->
+<?php include("footer.php"); ?>
