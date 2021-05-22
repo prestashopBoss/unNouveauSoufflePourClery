@@ -10,10 +10,8 @@
     Bonjour <?php 
         $firstName = $_GET['firstName'];
         $name = $_GET['name'];
-        $secondName = $_Get['secondName'];
-          echo $firstName; echo " "; echo $name; echo " "; echo $secondName;
-          $patronyme = $firstName . $name . $secondName;
-
+        $patronyme = $firstName . $name;
+        echo $name; echo " "; echo $firstName;
         switch ($patronyme) {
             case 'BubenheimerGregory':
                 print ('<img src="../../spec/1/01.GB.jpg"/>');
@@ -30,7 +28,8 @@
             case 'BoissayMichel':
                 print ('<img src="../../spec/1/05.MICHEL BOISSAY.jpg"/>');
                 break;
-            case 'BaraleGidoinElodie':
+            case 'GidouinElodie':
+                echo "-Barale";
                 print ('<img src="../../spec/1/06.ELODIE GIDOIN BARALE.jpg"/>');
                 break;
             case 'GuilmentBertrand':
@@ -48,7 +47,7 @@
             case 'BertandHenri':
                 print ('<img src="../../spec/1/11.HENRI BERTRAND.jpg"/>');
                 break;
-            case 'Boissay':
+            case 'BoissayElodie':
                 print ('<img src="../../spec/1/12.ELODIE BOISSAY.jpg"/>');
                 break;
             case 'MartinFrederic':
@@ -63,13 +62,15 @@
             case 'SalmamnDominique':
                 print ('<img src="../../spec/1/18.DOMINIQUE SALMANN.jpg"/>');
                 break;
-            case 'GidoinJeanMarie':
+            case '-MarieJean':
+                echo " Gidouin";
                 print ('<img src="../../spec/1/19.JEAN MARIE GIDOIN.jpg"/>');
                 break;
             case 'MertonLaurence':
                 print ('<img src="../../spec/1/20.LAURENCE MERTON.jpg"/>');
                 break;
-            case 'BonvillainErwanBertrand':
+            case 'BertrandErwan':
+                echo "-Bonvillain";
                 print ('<img src="../../spec/1/21.ERWAN BERTRAND BONVILLAIN.jpg"/>');
                 break;
             case 'BachelierStephanie':
@@ -82,6 +83,8 @@
                 print ('<img src="../../spec/1/24.AGNES RONCIN.jpg"/>');
                 break;
             default:
+            print_r("</br>Variable firstName = " . $firstName . "</br> Variable name = " . $name . "</br>"
+        . "variable égale " . $firstName . $name);
                 echo 'Probleme affichage photo';
                 break;
         }
