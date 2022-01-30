@@ -49,6 +49,7 @@
           <a class="dropdown-item" href="#">Entre nous</a>
           <a class="dropdown-item" href="#">Actualités</a>
           <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="../connexion.php">connexion</a>
         </div>
       </li>
               </ul>
