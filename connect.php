@@ -12,7 +12,7 @@ if (isset($_POST['valider'])) {
   $mdp_saisi = htmlspecialchars($_POST['mdp']);
   if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp){
     $_SESSION['mdp'] = $mdp_saisi;
-    header("Location : article.php");
+    header("Location : http://clery-info.fr/article.php");
 }else{
   header("Location : index.php");
 }
