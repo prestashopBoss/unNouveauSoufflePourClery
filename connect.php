@@ -20,10 +20,9 @@ if (isset($_POST['valider'])) {
 }
 } 
 }
+echo $_SESSION['pseudo'] . " est connecté";
 ?>
-    
-</body>
-</html>
+
 <div class="container pt-5 pb-6">
   <div class="row">
       <div class="col">
@@ -49,3 +48,5 @@ if (isset($_POST['valider'])) {
       </div>
     </div>    
   </div>
+  </body>
+</html>
