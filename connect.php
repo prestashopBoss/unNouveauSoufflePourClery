@@ -40,7 +40,7 @@ if (isset($_POST['valider'])) {
             <input class="form-control m-2" type="password" name="mdp" placeholder="Enter your password">
           </div>
           <input class="btn btn-outline-success form-control m-2" type="submit" name="valider" value="Submit">
-           <a href="index.php"><input class="btn btn-outline-success form-control m-2" type="submit" name="valider" value="Index"></a>
+           <a href="http://clery-info.fr"><input class="btn btn-outline-success form-control m-2" type="submit" name="valider" value="Index"></a>
         </form>
       </div>
       <!--  -->
