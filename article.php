@@ -3,6 +3,8 @@ session_start();
 include "fonction.php";
 verif_connect();
 include "head.php";
+var_dump($_SESSION) . " est connecté";
+
 ?>
 <form>
   <div class="form-group">
