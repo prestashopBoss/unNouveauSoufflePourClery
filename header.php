@@ -19,7 +19,7 @@
                   <li class="nav-link"><a href="index.php" >Accueil</a></li> 
                   <li class="nav-link"><a href="about.php" >Qui sommes-nous</a></li>
                   <li class="nav-link"><a href="./contacts/gregoryB.php">Grégory Bubenheimer</a></li>
-                  <li class="nav-link"><a href="connexion.php">Connexion</a></li>
+                  <li class="nav-link"><a href="connect.php">Connexion</a></li>
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En savoir plus</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
