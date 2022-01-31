@@ -5,6 +5,13 @@ verif_connect();
 include "head.php";
 var_dump($_SESSION) . " est connecté";
 
+function logout(){
+session_start();
+$_SESSION = array();
+session_destroy();
+echo '<script> location.replace("http://localhost/authentifoudation/"); </script>';
+
+}
 ?>
 <form>
   <div class="form-group">
@@ -37,3 +44,4 @@ var_dump($_SESSION) . " est connecté";
   </div>
 </form>
 <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>
+<a href="<?php logout(); ?>"><button class="btn btn-outline-success form-control m-2" type="button">Logout</button></a>
