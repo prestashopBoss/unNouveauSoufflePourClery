@@ -5,11 +5,6 @@ verif_connect();
 include "head.php";
 var_dump($_SESSION) . " est connecté";
 
-function logout(){
-$_SESSION = array();
-session_destroy();
-header("Location : http://clery-info.fr");
-}
 ?>
 <form>
   <div class="form-group">
@@ -42,4 +37,4 @@ header("Location : http://clery-info.fr");
   </div>
 </form>
 <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>
-<a href="<?php logout(); ?>"><button class="btn btn-outline-success form-control m-2" type="button">Logout</button></a>
+<a href="logout.php"><button class="btn btn-outline-success form-control m-2" type="button">Logout</button></a>
