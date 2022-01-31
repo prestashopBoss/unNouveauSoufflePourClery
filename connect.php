@@ -15,6 +15,7 @@ if (isset($_POST['valider'])) {
     echo '<script> location.replace("index.php");</script>';
 
 }else{
+  echo "NOK";
   echo '<script>window.alert("Veuillez remplir les champs correctement")</script>';
 }
 } 
