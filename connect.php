@@ -13,7 +13,10 @@ if (isset($_POST['valider'])) {
   if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp){
     $_SESSION['mdp'] = $mdp_saisi;
 
-   echo '<div class="modal" tabindex="-1" role="dialog">
+    
+
+}else{
+  echo '<div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -32,10 +35,6 @@ if (isset($_POST['valider'])) {
     </div>
   </div>
 </div>';
-
-}else{
-  echo "NOK";
-  echo '<script>window.alert("Veuillez remplir les champs correctement")</script>';
 }
 } 
 }
