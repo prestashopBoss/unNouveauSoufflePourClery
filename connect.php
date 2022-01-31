@@ -3,16 +3,19 @@ session_start();
 include "head.php";
 if (isset($_POST['valider'])) {
   if (!empty($_POST['pseudo']) && !empty($_POST['mdp'])) {
-    $pseudo = "admin";
-    $mdp = "admin1234";
+  $pseudo = "admin";
+  $mdp = "admin1234";
+
+  $gg = ' ';
 
   $pseudo_saisi = htmlspecialchars($_POST['pseudo']);
   $mdp_saisi = htmlspecialchars($_POST['mdp']);
   if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp){
     $_SESSION['mdp'] = $mdp_saisi;
-    
+    echo '<script> location.replace("article.php");</script>';
+
 }else{
-  echo '<script>window.confirm("Une nouvelle fenêtre va s\'ouvrir.");</script>';
+  echo '<script>window.confirm("Une nouvelle fenêtre va s\'ouvrir.")</script>';
 }
 } 
 }
