@@ -45,7 +45,7 @@ if (isset($_POST['valider'])) {
       <!--  -->
       <div class="col">
       </div>
-    </div>
-    <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>    
+      <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>
+    </div>    
   </div>
       
