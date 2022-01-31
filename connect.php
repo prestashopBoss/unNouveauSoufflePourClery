@@ -20,7 +20,6 @@ if (isset($_POST['valider'])) {
 }
 } 
 }
-echo $_SESSION['pseudo'] . " est connecté";
 ?>
 
 <div class="container pt-5 pb-6">
