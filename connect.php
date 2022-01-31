@@ -12,7 +12,7 @@ if (isset($_POST['valider'])) {
     $_SESSION['mdp'] = $mdp_saisi;
     
 }else{
-  echo "<script>window.alert('Veuillez remplir les champs correctement');</script>";
+  echo '<script>window.alert("Veuillez remplir les champs correctement";</script>';
 }
 } 
 }
