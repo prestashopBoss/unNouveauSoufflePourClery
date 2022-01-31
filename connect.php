@@ -12,7 +12,7 @@ if (isset($_POST['valider'])) {
   $mdp_saisi = htmlspecialchars($_POST['mdp']);
   if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp){
     $_SESSION['mdp'] = $mdp_saisi;
-    echo '<script> location.replace("index.php");</script>';
+    echo '<script> location.replace("article.php");</script>';
 
 }else{
   echo "NOK";
