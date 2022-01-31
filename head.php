@@ -24,4 +24,4 @@
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  <?php echo $_SESSION['pseudo'] . " est connecté"; ?>
+  <?php var_dump($_SESSION) . " est connecté"; ?>
