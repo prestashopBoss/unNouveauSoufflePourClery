@@ -6,7 +6,6 @@ include "head.php";
 var_dump($_SESSION) . " est connecté";
 
 function logout(){
-session_start();
 $_SESSION = array();
 session_destroy();
 header("Location : http://clery-info.fr");
