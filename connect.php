@@ -3,10 +3,8 @@ session_start();
 include "head.php";
 if (isset($_POST['valider'])) {
   if (!empty($_POST['pseudo']) && !empty($_POST['mdp'])) {
-  $pseudo = "admin";
-  $mdp = "admin1234";
-
-  $gg = ' ';
+    $pseudo = "admin";
+    $mdp = "admin1234";
 
   $pseudo_saisi = htmlspecialchars($_POST['pseudo']);
   $mdp_saisi = htmlspecialchars($_POST['mdp']);
@@ -14,8 +12,7 @@ if (isset($_POST['valider'])) {
     $_SESSION['mdp'] = $mdp_saisi;
     
 }else{
-  echo "NOK";
-  echo "<script>window.alert('Veuillez remplir les champs correctement')</script>";
+  echo "<script>window.alert('Veuillez remplir les champs correctement');</script>";
 }
 } 
 }
