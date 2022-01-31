@@ -41,11 +41,11 @@ if (isset($_POST['valider'])) {
           </div>
           <input class="btn btn-outline-success form-control m-2" type="submit" name="valider" value="Submit">
         </form>
-        <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="submit" value="Index"></a>
       </div>
       <!--  -->
       <div class="col">
       </div>
     </div>
-      </div>
-
+    <a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>    
+  </div>
+      
