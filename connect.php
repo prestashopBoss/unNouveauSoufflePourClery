@@ -6,15 +6,14 @@ if (isset($_POST['valider'])) {
   $pseudo = "admin";
   $mdp = "admin1234";
 
-  $gg = ' ';
-
   $pseudo_saisi = htmlspecialchars($_POST['pseudo']);
   $mdp_saisi = htmlspecialchars($_POST['mdp']);
-  if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp){
+  if ($pseudo_saisi == $pseudo && $mdp_saisi = $mdp) {
     $_SESSION['mdp'] = $mdp_saisi;
-    header("Location : http://clery-info.fr/article.php");
+    echo '<script> location.replace("http://clery-info.fr/article.php");</script>';
+
 }else{
-  header("Location : index.php");
+  echo '<script>window.alert("Veuillez remplir les champs correctement")</script>';
 }
 } 
 }

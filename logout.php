@@ -3,6 +3,6 @@
 session_start();
 $_SESSION = array();
 session_destroy();
-header("Location : http://clery-info.fr");
+echo '<script> location.replace("http://clery-info.fr/article.php");</script>';
 
 ?>
