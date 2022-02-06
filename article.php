@@ -1,40 +1,88 @@
 <?php
-session_start();
-include "fonction.php";
-verif_connect();
+/*session_start();*/
+//include "fonction.php";
+/*verif_connect();*/
 include "head.php";
-var_dump($_SESSION) . " est connecté";
+//var_dump($_SESSION) . " est connecté";
 
 ?>
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+<div class="container">
+<form action="" method="post">
+    <div>
+        <p>
+            <input type="button" value="G" />
+            <input type="button" value="I" />
+            <input type="button" value="Lien" />
+            <input type="button" value="Image" />
+            <input type="button" value="Citation" />
+            <select onchange="insertTag('<' + this.options[this.selectedIndex].value + '>', '</' + this.options[this.selectedIndex].value + '>');">
+                <option value="none" class="selected" selected="selected">Taille</option>
+                <option value="ttpetit">Très très petit</option>
+                <option value="tpetit">Très petit</option>
+                <option value="petit">Petit</option>
+                <option value="gros">Gros</option>
+                <option value="tgros">Très gros</option>
+                <option value="ttgros">Très très gros</option>
+            </select>
+            <img src="smile.gif" alt="smiley" />
+            <img src="unsure2.gif" alt="smiley" />
+        </p>
+        <p>
+            <input name="previsualisation" type="checkbox" id="previsualisation" value="previsualisation" />
+            <label for="previsualisation">Prévisualisation automatique</label>
+        </p>
+    </div>
+
+	<textarea id="textarea" cols="150" rows="10"></textarea>
+    
+	<div id="previewDiv"></div>
+
+	<p>
+        <input type="button" value="Visualiser" onclick="view('textarea','viewDiv');" />
+    </p>
+
+    <div id="viewDiv"></div>
 </form>
-<a href="http://clery-info.fr"><button class="btn btn-outline-success form-control m-2" type="button">Page d'accueil</button></a>
-<a href="logout.php"><button class="btn btn-outline-success form-control m-2" type="button">Logout</button></a>
+<script>
+function insertTag(startTag, endTag, textareaId, tagType) {
+        var field  = document.getElementById(textareaId); 
+        var scroll = field.scrollTop;
+        field.focus();
+        
+        /* === Partie 1 : on récupère la sélection === */
+        if (window.ActiveXObject) {
+                var textRange = document.selection.createRange();            
+                var currentSelection = textRange.text;
+        } else {
+                var startSelection   = field.value.substring(0, field.selectionStart);
+                var currentSelection = field.value.substring(field.selectionStart, field.selectionEnd);
+                var endSelection     = field.value.substring(field.selectionEnd);               
+        }
+        
+        /* === Partie 2 : on analyse le tagType === */
+        if (tagType) {
+                switch (tagType) {
+                        case "lien":
+                                // Si c'est un lien
+                        break;
+                        case "citation":
+                                // Si c'est une citation
+                        break;
+                }
+        }
+        
+        /* === Partie 3 : on insère le tout === */
+        if (window.ActiveXObject) {
+                textRange.text = startTag + currentSelection + endTag;
+                textRange.moveStart("character", -endTag.length - currentSelection.length);
+                textRange.moveEnd("character", -endTag.length);
+                textRange.select();     
+        } else {
+                field.value = startSelection + startTag + currentSelection + endTag + endSelection;
+                field.focus();
+                field.setSelectionRange(startSelection.length + startTag.length, startSelection.length + startTag.length + currentSelection.length);
+        } 
+
+        field.scrollTop = scroll;     
+}
+</script>

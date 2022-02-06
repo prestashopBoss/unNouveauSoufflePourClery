@@ -1,110 +1,70 @@
-<?php include("head.php");
-    ?>
+<?php
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <div class="site-wrap " id="home-section">
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
+include "connect_bdd.php";
+  if(isset($_POST["valider"])){
+    $status = 'error';
+    if(!empty($_FILES["bin"]["name"])){
+      $fileName = basename($_FILES["bin"]["name"]);
+      $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+
+      $allowTypes = array('jpg','png','jpeg','gif');
+      if(in_array($fileType, $allowTypes)){
+          $image = $_FILES['bin']['tmp_name'];
+          $imgContent = addslashes(file_get_contents($image));
+          $sql = "INSERT INTO `images` (bin, created) VALUES ('".$imgContent."', NOW())";
+          $insert = $con->query($sql);
+
+    if ($insert) {
+      $status = 'success';
+      $StatusMsg = "Insertion success !";
+          }
+          else{
+            $StatusMsg = "File upload failed";
+          }
+        }
+          else{
+            $StatusMsg = "only jpg, jpeg, png,, gif file ";
+          }
+        }
+          else{
+            $StatusMsg =  "Please select an image file to upload";
+          }
+        }
+  
+  include "header_boostrap.php";
+?>
+<div class="container">
+  <h1>Upload end store image in Database using PHP
+    <div class="wrapper">
+  </h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div class="form-groupe">
+          <label for="image">Select Image File</label>
+          <input type="file" name="bin" class="form-control" >
+          <input type="submit" value="Charger" name="valider">
         </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
-
-
-    <header class="site-navbar site-navbar-target"  role="banner">
-              <span class="icon-menu" style="background-color:#f6f5f500 !important;"></span></a>
-              <div class="d-flex flex-row-reverse">
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#f6f5f500 !important">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
+    </form>
   </div>
-</nav>
-</div>
-    <!--color button-->
-      <div class="col-1 d-flex align-items-start">
-      <div class="btn-group-vertical">
-        <button type="button" class="color-theme-button-purple" style="padding-left: 1px;"></button>
-        <button type="button" class="color-theme-button-orange" style="padding-left: 1px;"></button>
-        <button type="button" class="color-theme-button-green" style="padding-left: 1px;"></button>
-    </div>
   </div>
-    <!--color button-->
-    </header>
-    <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('img/1280x680_015_basilique_clery_hd_chevet_faoade_nord.jpg')">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-12">
-            <h3 class="text-white font_clery">Un Nouveau Souffle Pour Cléry-Saint André</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="site-navbar site-navbar-target"  role="banner">
-    </div>
+  <?php 
+// Include the database configuration file  
+ 
+// Get image data from database 
+$result = $con->query("SELECT bin FROM images ORDER BY id_images DESC"); 
 
-<!--
-<div class="d-flex flex-row-reverse">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-</div>
+if($result->num_rows > 0){ ?> 
+    <div class="gallery"> 
+        <?php while($row = $result->fetch_assoc()){ ?> 
+            <img style="width : 150px; height : auto;" src="data:bin/jpg;charset=utf8;base64,<?php echo base64_encode($row['bin']); ?>" /> 
+        <?php } ?> 
+    </div> 
+<?php }else{ ?> 
+  
+    <p class="status error">Image(s) not found...</p> 
+<?php } 
 
-d-inline-block d-inline-block 
+?>
 
--->
-<?php include("footer.php"); ?>
+</body>
+</html>
